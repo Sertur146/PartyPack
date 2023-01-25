@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/Settings">
+
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/Heroes">
+
+        <SwitchPreferenceCompat
+            app:key="superhero"
+            app:title="Режим &quot;Супергерой&quot;"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/ToD">
+
+        <SwitchPreferenceCompat
+            app:key="tod_no_compromiss"
+            app:title="Режим &quot;Без компромиссов&quot;"/>
+
+        <SwitchPreferenceCompat
+            app:key="tod_random"
+            app:title="Режим &quot;Рандом&quot;"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

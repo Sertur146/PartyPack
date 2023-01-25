@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_home_game"
+    tools:context=".NeverActivity">
+
+    <ImageButton
+        android:id="@+id/btnNever_settings"
+        android:layout_width="33dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@null"
+        android:onClick="NeverSettingsCall"
+        android:tint="#00FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnNever_rules"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/ic_settings"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btnNever_rules"
+        android:layout_width="33dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:onClick="RulesCall"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/ic_info_logo" />
+
+    <Button
+        android:id="@+id/btnNever"
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:background="@drawable/buttonshape"
+        android:ellipsize="none"
+        android:gravity="center"
+        android:onClick="INeverCall"
+        android:text="Удивить себя и всех;)"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#BF9C2FF1"
+        app:backgroundTintMode="src_in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="250dp"
+        android:layout_height="58dp"
+        android:text="Я никогда не..."
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.121" />
+
+    <TextView
+        android:id="@+id/txtNever"
+        android:layout_width="338dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="45dp"
+        android:gravity="center"
+        android:text="..."
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnNever"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/arrow_part_5" />
+
+    <ImageView
+        android:id="@+id/arrow_part_5"
+        android:layout_width="75dp"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtNever"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/arrow_part_4"
+        app:srcCompat="@drawable/ic_arrow_elem_5" />
+
+    <ImageView
+        android:id="@+id/arrow_part_1"
+        android:layout_width="67dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/arrow_part_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/ic_arrow_elem_1" />
+
+    <ImageView
+        android:id="@+id/arrow_part_2"
+        android:layout_width="67dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/arrow_part_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/arrow_part_1"
+        app:srcCompat="@drawable/ic_arrow_elem_2" />
+
+    <ImageView
+        android:id="@+id/arrow_part_3"
+        android:layout_width="67dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/arrow_part_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/arrow_part_2"
+        app:srcCompat="@drawable/ic_arrow_elem_3" />
+
+    <ImageView
+        android:id="@+id/arrow_part_4"
+        android:layout_width="67dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/arrow_part_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/arrow_part_3"
+        app:srcCompat="@drawable/ic_arrow_elem_4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

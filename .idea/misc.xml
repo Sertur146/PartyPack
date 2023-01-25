@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/anim/clip_anime.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/drawable/buttonshape.xml" value="0.2115" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/drawable/buttonshape_main.xml" value="0.2115" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/drawable/clip_anime1.xml" value="0.189" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/drawable/launch_screen.xml" value="0.2115" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/drawable/textsape.xml" value="0.2115" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/activity_disclamer.xml" value="0.203125" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/activity_game.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/activity_heroes.xml" value="0.33" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/activity_nemoy.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/activity_nemoy_vopros.xml" value="0.33" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/activity_never.xml" value="0.33" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/activity_rus_rulet.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/activity_settings.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/activity_shooter.xml" value="0.25" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/activity_test.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/activity_truth_or_dare.xml" value="0.18" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/bottom_sheet.xml" value="0.25" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/bottom_sheet1.xml" value="0.25" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/fragment_tod_settings.xml" value="0.22" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/pref.xml" value="0.2384428223844282" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/recycler_list.xml" value="0.25" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/row.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/settings_activity.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/layout/shooter_content.xml" value="0.33" />
+        <entry key="..\:/Users/Sertur/Desktop/PatyPack/app/src/main/res/xml/root_preferences.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
